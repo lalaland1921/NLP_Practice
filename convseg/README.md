@@ -4,6 +4,9 @@ by IJCNLP2017.
 
 [The original tensorflow 1.x implementation by the author](https://github.com/chqiwang/convseg)
 
+## Dependencies
+  * python 3.7
+  * pytorch 1.5.0
 ## Data
 Downlaod `data.zip` from [here](https://drive.google.com/file/d/0B-f0oKMQIe6sQVNxeE9JeUJfQ0k/view) (Note that the `SIGHAN` datasets should only be used for research purposes). Extract `data.zip` to this directory. So the file tree would be:
 ```
