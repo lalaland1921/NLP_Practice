@@ -139,10 +139,10 @@ if __name__ == '__main__':
     model.to(device)
     if os.path.isfile(model_path): # continue the training from where it is interrupted
         model.load_state_dict(torch.load(model_path))
-    '''
+    
     model.train(train_data=train_data_ids, dev_data=dev_data_ids, test_data=test_data_ids,
                     epochs=args.max_epoches, batch_size=args.batch_size,
-                    optimizer=args.optimizer, model_path=model_path)'''
+                    optimizer=args.optimizer, model_path=model_path)
 
 
     if args.use_inference:
