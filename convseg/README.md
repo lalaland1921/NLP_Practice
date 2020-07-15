@@ -2,7 +2,7 @@
 Convolutional neural network for Chinese word segmentation (CWS). The corresponding paper [Convolutional Neural Network with Word Embeddings for Chinese Word Segmentation](https://arxiv.org/pdf/1711.04411.pdf) has been accepted
 by IJCNLP2017.
 
-[The original implementation by the author](https://github.com/chqiwang/convseg)
+[The original tensorflow 1.x implementation by the author](https://github.com/chqiwang/convseg)
 
 ## Data
 Downlaod `data.zip` from [here](https://drive.google.com/file/d/0B-f0oKMQIe6sQVNxeE9JeUJfQ0k/view) (Note that the `SIGHAN` datasets should only be used for research purposes). Extract `data.zip` to this directory. So the file tree would be:
